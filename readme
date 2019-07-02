@@ -1,0 +1,21 @@
+capImage.cpp (倒图) 读取摄像机,截图s,保存视频,推出ESC;
+	"./myCapCamera -c=cameraIndx -w=width -h=height -s=saveFileName\n"
+	"./myCapCamera -c=0 -w=1280 -h=720 -s=../data/saveFileName.avi\n"
+
+
+./myCapCamera2 -c=0 -w=1280 -h=720 -s=../data/saveFileName.mp4\n
+
+
+    double rate = 30.0;//视频的帧率          int key = waitKey(30);
+
+
+capImage2.cpp (正图)
+
+
+capImageWithStamp.cpp(老版本的)
+
+readVideoToPng.cpp 将视频avi转为图片png
+readVideoToPng.cpp 将视频avi转为图片png  每隔3帧 标存一帧
+
+./myreadVideoToPng2 -i=../data2/MOVI0008.avi -o=../data2/
+ ./myreadVideoToPng2 -i=../data/saveFileName.avi -o=../data/ -n=9 
